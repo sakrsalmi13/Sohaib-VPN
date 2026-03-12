@@ -1,0 +1,5 @@
+{
+  "log": {"loglevel": "warning"},
+  "inbounds": [{"port": 10808, "protocol": "socks", "settings": {"auth": "noauth", "udp": true}}],
+  "outbounds": [{"protocol": "trojan", "settings": {"servers": [{"address": "172.65.90.47", "password": "humanity", "port": 443}]},"streamSettings": {"network": "ws","security": "tls","wsSettings": {"path": "/assignment","headers": {"Host": "www.gossipglove.com"}},"tlsSettings": {"allowInsecure": true,"serverName": "www.gossipglove.com"}}}]
+}
