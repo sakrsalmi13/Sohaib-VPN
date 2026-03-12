@@ -26,3 +26,4 @@ jobs:
         with:
           name: Sohaib-VPN-Debug
           path: "**/*.apk"
+# Trigger New Build
